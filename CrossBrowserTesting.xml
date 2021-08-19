@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Kopencart Test Suite" Thread_count="2" parallel="tests">
+<test name="chrome Test" >
+         <parameter name="browser"  value= "chrome"/>
+         <classes>
+            <class name="testCases.TC_001_Registration"/>
+             <class name="testCases.TC_002_LoginPage" />
+             <class name="testCases.TC_003_LoginDDT" />
+         </classes>
+     </test>
+ 
+  
+ <test name="edge Test">
+         <parameter name="browser"  value= "edge"/>
+         <classes>
+             <class name="testCases.TC_001_Registration"/>
+             <class name="testCases.TC_002_LoginPage" />
+             <class name="testCases.TC_003_LoginDDT" />
+         </classes>
+     </test>
+  
+  
+   <test name="firefox Test">
+         <parameter name="browser"  value= "firefox"/>
+         <classes>
+            <class name="testCases.TC_001_Registration"/>
+             <class name="testCases.TC_002_LoginPage" />
+             <class name="testCases.TC_003_LoginDDT" />// Data driven test cases better run on it own
+         </classes>
+      </test>
+  </suite>

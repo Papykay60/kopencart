@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Kopencart Test Suite" duration-ms="50344" started-at="2021-08-18T23:09:29 BST" finished-at="2021-08-18T23:10:19 BST">
+    <groups>
+      <group name="regresssion">
+        <method signature="TC_001_Registration.TC_001_Account_Registration()[pri:0, instance:testCases.TC_001_Registration@687080dc]" name="TC_001_Account_Registration" class="testCases.TC_001_Registration"/>
+      </group> <!-- regresssion -->
+      <group name="sanity">
+        <method signature="TC_002_LoginPage.test_Login()[pri:0, instance:testCases.TC_002_LoginPage@23d2a7e8]" name="test_Login" class="testCases.TC_002_LoginPage"/>
+      </group> <!-- sanity -->
+      <group name="master">
+        <method signature="TC_001_Registration.TC_001_Account_Registration()[pri:0, instance:testCases.TC_001_Registration@687080dc]" name="TC_001_Account_Registration" class="testCases.TC_001_Registration"/>
+        <method signature="TC_002_LoginPage.test_Login()[pri:0, instance:testCases.TC_002_LoginPage@23d2a7e8]" name="test_Login" class="testCases.TC_002_LoginPage"/>
+      </group> <!-- master -->
+    </groups>
+    <test name="chrome Tests" duration-ms="50344" started-at="2021-08-18T23:09:29 BST" finished-at="2021-08-18T23:10:19 BST">
+      <class name="testCases.TC_001_Registration">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_Registration@687080dc]" name="setup" is-config="true" duration-ms="11941" started-at="2021-08-18T23:09:30 BST" finished-at="2021-08-18T23:09:42 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC_001_Account_Registration()[pri:0, instance:testCases.TC_001_Registration@687080dc]" name="TC_001_Account_Registration" duration-ms="11814" started-at="2021-08-18T23:09:42 BST" finished-at="2021-08-18T23:09:54 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001_Account_Registration -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:testCases.TC_001_Registration@687080dc]" name="Teardown" is-config="true" duration-ms="1090" started-at="2021-08-18T23:09:54 BST" finished-at="2021-08-18T23:09:55 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- testCases.TC_001_Registration -->
+      <class name="testCases.TC_002_LoginPage">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_002_LoginPage@23d2a7e8]" name="setup" is-config="true" duration-ms="5035" started-at="2021-08-18T23:09:55 BST" finished-at="2021-08-18T23:10:00 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test_Login()[pri:0, instance:testCases.TC_002_LoginPage@23d2a7e8]" name="test_Login" duration-ms="17978" started-at="2021-08-18T23:10:00 BST" finished-at="2021-08-18T23:10:18 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Login -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:testCases.TC_002_LoginPage@23d2a7e8]" name="Teardown" is-config="true" duration-ms="1298" started-at="2021-08-18T23:10:18 BST" finished-at="2021-08-18T23:10:19 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- testCases.TC_002_LoginPage -->
+    </test> <!-- chrome Tests -->
+  </suite> <!-- Kopencart Test Suite -->
+</testng-results>

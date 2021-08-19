@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Kopencart Test Suite" duration-ms="82744" started-at="2021-08-18T15:27:25 BST" finished-at="2021-08-18T15:28:48 BST">
+    <groups>
+      <group name="regresssion">
+        <method signature="TC_001_Registration.TC_001_Account_Registration()[pri:0, instance:testCases.TC_001_Registration@10a035a0]" name="TC_001_Account_Registration" class="testCases.TC_001_Registration"/>
+      </group> <!-- regresssion -->
+      <group name="sanity">
+        <method signature="TC_002_LoginPage.test_Login()[pri:0, instance:testCases.TC_002_LoginPage@67b467e9]" name="test_Login" class="testCases.TC_002_LoginPage"/>
+      </group> <!-- sanity -->
+      <group name="master">
+        <method signature="TC_001_Registration.TC_001_Account_Registration()[pri:0, instance:testCases.TC_001_Registration@10a035a0]" name="TC_001_Account_Registration" class="testCases.TC_001_Registration"/>
+        <method signature="TC_002_LoginPage.test_Login()[pri:0, instance:testCases.TC_002_LoginPage@67b467e9]" name="test_Login" class="testCases.TC_002_LoginPage"/>
+      </group> <!-- master -->
+    </groups>
+    <test name="chrome Tests" duration-ms="82744" started-at="2021-08-18T15:27:25 BST" finished-at="2021-08-18T15:28:48 BST">
+      <class name="testCases.TC_002_LoginPage">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_002_LoginPage@67b467e9]" name="setup" is-config="true" duration-ms="4324" started-at="2021-08-18T15:28:23 BST" finished-at="2021-08-18T15:28:28 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test_Login()[pri:0, instance:testCases.TC_002_LoginPage@67b467e9]" name="test_Login" duration-ms="20470" started-at="2021-08-18T15:28:28 BST" finished-at="2021-08-18T15:28:48 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Login -->
+      </class> <!-- testCases.TC_002_LoginPage -->
+      <class name="testCases.TC_001_Registration">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_Registration@10a035a0]" name="setup" is-config="true" duration-ms="23259" started-at="2021-08-18T15:27:27 BST" finished-at="2021-08-18T15:27:50 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC_001_Account_Registration()[pri:0, instance:testCases.TC_001_Registration@10a035a0]" name="TC_001_Account_Registration" duration-ms="33222" started-at="2021-08-18T15:27:50 BST" finished-at="2021-08-18T15:28:23 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001_Account_Registration -->
+      </class> <!-- testCases.TC_001_Registration -->
+    </test> <!-- chrome Tests -->
+  </suite> <!-- Kopencart Test Suite -->
+</testng-results>
